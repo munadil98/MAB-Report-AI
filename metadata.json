@@ -1,0 +1,5 @@
+{
+  "name": "AI: Monthly Report Dashboard",
+  "description": "A comprehensive dashboard to analyze monthly Majlis performance data from Google Sheets, featuring data visualization and summary statistics.",
+  "requestFramePermissions": []
+}
