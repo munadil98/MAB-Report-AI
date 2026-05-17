@@ -118,7 +118,7 @@ export default function ReportAIChat({ data, allData, selectedMonth }: ReportAIC
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 w-14 h-14 bg-indigo-600 text-white rounded-full shadow-lg shadow-indigo-200 flex items-center justify-center hover:scale-110 transition-transform z-50 group"
+        className="fixed sm:bottom-6 bottom-4 sm:right-6 right-4 w-14 h-14 bg-indigo-600 text-white rounded-full shadow-lg shadow-indigo-200 flex items-center justify-center hover:scale-110 transition-transform z-50 group"
       >
         <MessageSquare size={28} />
         <span className="absolute right-16 bg-white text-slate-800 px-3 py-1 rounded-lg text-xs font-bold border border-slate-200 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
@@ -133,7 +133,7 @@ export default function ReportAIChat({ data, allData, selectedMonth }: ReportAIC
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-3rem)] h-[500px] bg-white rounded-2xl shadow-2xl border border-slate-200 flex flex-col z-50 overflow-hidden"
+            className="fixed sm:bottom-24 bottom-20 sm:right-6 right-4 w-[calc(100vw-2rem)] sm:w-96 h-[500px] max-h-[calc(100vh-7rem)] bg-white rounded-2xl shadow-2xl border border-slate-200 flex flex-col z-50 overflow-hidden"
           >
             {/* Header */}
             <div className="p-4 bg-indigo-600 text-white flex items-center justify-between">
